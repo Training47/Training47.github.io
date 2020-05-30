@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: Lisa Pena
+Site: email, link to a contact form, etc.(Not public)
+Twitter: (Not public)
+Location: Chicago, IL.
+
+/* THANKS */
+Name: Microtrain Full Stack Developer Program
+
+/* SITE */
+Last update: 2020/05/26
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development

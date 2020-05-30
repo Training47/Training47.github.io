@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name = "Contact Form" content = "HTML">
+    <meta name = "description" content = "Constructing Contact Form">
+    <meta name = "author" content = "Lisa Pena">
+    <meta name = "revised" content = "Added meta tags, 5/26/20.">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" href="LP logo.png" type="image/png" sizes="16x16">
+
+</head>
+
+<body>
+  <header>
+    <span class="logo">My WebSite</span>
+  <a id="toggleMenu">Menu</a>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+  <h3>For Full Stack Web Applications Development and Web Design.  <br>Please
+    contact Lisa Pena via the form listed below:</br>
+  </h3>
+      <form action="https://formspree.io/lisapena13@gmail.com" method="POST">
+         <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+      </div>
+      
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="_replyto">  
+      </div>
+      
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      
+      <div>
+        <input type="hidden" name="_subject" value="New submission!">
+      </div>
+      <div>
+        <input type="submit" value="Send">
+      </div>
+
+<input type="hidden" name="_next" value="//Training47.github.io/thanks.html">
+<input type="text" name="_gotcha" style="display:none">
+</form>
+</main>
+
+
+<script>
+
+  var toggleMenu = document.getElementById('toggleMenu');
+  var nav = document.querySelector('nav');
+  toggleMenu.addEventListener(
+    'click',
+    function(){
+      if(nav.style.display=='block'){
+        nav.style.display='none';
+      }else{
+        nav.style.display='block';
+      }
+    }
+  );
+</script>
+
+</body>
+</html>

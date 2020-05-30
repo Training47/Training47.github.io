@@ -1,0 +1,3 @@
+Contact: mailto: yourname@email
+Preferred-Languages: en
+Canonical: https://training47.github.io/Resume-Portfolio-day2
