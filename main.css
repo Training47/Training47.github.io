@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+/*Top of page*/
    .avatar {
         border-radius: 50%; 
         float: left; 
@@ -96,15 +96,6 @@
         }
 
 
-
-
-
-
-
-
-
-
-
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -122,12 +113,12 @@ h6{
    
 }
 
-.title{
+.title {
 text-align: center;
 
 }
 
-p .talent{
+p .talent {
     text-align: justify; 
 }
 
