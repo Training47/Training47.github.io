@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta name = "keywords" content = "full stack, web developer, fullstack web developer"/>
     <meta name = "description" content = "Pena professional resume">
     <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
@@ -16,6 +16,30 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <main>
 <h1>Thank you for contacting me for additional information.</h1>
+</main>
 </body>
+
+
+<script>
+
+  var toggleMenu = document.getElementById('toggleMenu');
+  var nav = document.querySelector('nav');
+  toggleMenu.addEventListener(
+    'click',
+    function(){
+      if(nav.style.display=='block'){
+        nav.style.display='none';
+      }else{
+        nav.style.display='block';
+      }
+    }
+  );
+</script>
+
+
+
+
+
 </html>
