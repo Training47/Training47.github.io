@@ -5,11 +5,7 @@
         float: left; 
         margin-right: 1em;
       }
-      
-      #toggleMenu {
-          display: none;
-      }
-      
+               
       header {
         height: 50px;
         background: #000;
@@ -58,7 +54,11 @@
           width: 960px;
         
           /* For smaller screens to not exceed the max screen width */
-          max-width: 100%;
+          max-width: 90%;
+        }
+
+        #toggleMenu {
+          display: none;
         }
       
         @media only screen and (max-width: 960px)  {
@@ -66,16 +66,25 @@
           header {
             position: relative;
           }
-          
+        
+          #toggleMenu {
+            display: block;
+            float: right;
+            line-height: 50px;
+          }
+        
+          header {
+            position: relative;
+          }
+        
           nav {
-              position: absolute;
-              display: none;
-              background: #000;
-              top: 50px;
-              left: 0;
-              right: 0;
-            }
-          
+            position: absolute;
+            display: none;
+            background: #000;
+            top: 50px;
+            left: 0;
+            right: 0;
+          }
         
           nav ul li a,
           nav ul li a:link,
@@ -83,18 +92,7 @@
             display: block;
             border-bottom: 1px solid #777;
           }
-          main {
-              max-width: 90%;
-          }
-      
-          #toggleMenu {
-              display: block;
-              float: right;
-              line-height: 50px;
-            }
-          
-        }
-
+        } 
 
 body {
     font-family: 'Roboto', sans-serif;
