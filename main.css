@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/*Top of page*/
+/*Top of page for all 4 pages*/
    .avatar {
         border-radius: 50%; 
         float: left; 
@@ -60,7 +60,7 @@
         #toggleMenu {
           display: none;
         }
-      
+      /*Responsive for all 4 pages*/
         @media only screen and (max-width: 960px)  {
       
           header {
