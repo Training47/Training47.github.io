@@ -5,7 +5,9 @@
   "scripts": {
     "start": "gulp watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
