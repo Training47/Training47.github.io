@@ -5,16 +5,13 @@
 .avatar {
   border-radius: 50%;
   float: left;
-  margin-right: 3.0em; }
+  margin-right: 2.5em; }
 
 body {
   padding: 0;
   margin: 0; }
 
 /*Nav Bar*/
-#toggleMenu {
-  display: none; }
-
 header {
   height: 50px;
   background: #000;
@@ -23,7 +20,8 @@ header {
 
 header .logo {
   line-height: 50px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-left: 20px; }
 
 nav {
   float: right; }
@@ -40,7 +38,7 @@ nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
   display: inline-block;
-  padding: 0 .5rem;
+  padding: 0.5rem;
   color: #fff;
   line-height: 50px;
   text-decoration: none; }
@@ -55,11 +53,19 @@ main {
   /* Set the width of the content */
   width: 960px;
   /* For smaller screens to not exceed the max screen width */
-  max-width: 100%; }
+  max-width: 90%; }
+
+#toggleMenu {
+  display: none; }
 
 @media only screen and (max-width: 960px) {
   header {
     position: relative; }
+
+  #toggleMenu {
+    display: block;
+    float: right;
+    line-height: 50px; }
 
   nav {
     position: absolute;
@@ -73,18 +79,7 @@ main {
   nav ul li a:link,
   nav ul li a:visited {
     display: block;
-    border-bottom: 1px solid #777; }
-
-  main {
-    max-width: 90%; }
-
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px; } 
-  }
-
-
+    border-bottom: 1px solid #777; } }
 /* Resume HTML Styling - Top of Page*/
 body {
   font-family: 'Roboto', sans-serif;
@@ -96,10 +91,9 @@ h1 {
   text-decoration: underline; }
 
 h2 {
-   align-content: center;
-   justify-content: center;
-   text-align: center;
-}  
+  align-content: center;
+  text-align: center;
+  justify-content: center; }
 
 h3 {
   text-align: center; }
@@ -122,40 +116,28 @@ p .talent {
   text-align: center; }
 
 /*Competencies*/
-.competencies {
-  text-align: center; }
-
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  }
-
-.item {
-  justify-content: left; }
+  margin-left: 200px; }
 
 /*Certifications*/
 .box1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  flex-wrap: wrap; }
 
 .box2 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  flex-wrap: wrap; }
 
 .box3 {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
 
 .box4 {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
 
 .box5 {
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
 
 /*Professional Experience*/
 p .fend {
