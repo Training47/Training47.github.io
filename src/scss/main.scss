@@ -78,7 +78,7 @@ nav ul li a:hover{
     max-width: 100%;
   }
 
-  @media only screen and (max-width: 960px)  {
+  @media only screen and (max-width: 900px)  {
 
     header {
       position: relative;
@@ -129,7 +129,8 @@ h1{
 h2 {
   align-content: center;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }  
 
 
@@ -166,7 +167,7 @@ h6{
 .container {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 /*Certifications*/
