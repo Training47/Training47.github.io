@@ -129,8 +129,8 @@ h1{
 h2 {
   align-content: center;
   text-align: center;
-  margin: 0 auto;
-  padding-left: 500px;
+  margin-left: 250px;
+  
 }  
 
 
@@ -164,12 +164,6 @@ h6{
 
   /*Competencies*/
 
-  .competencies{
-      text-align: center;
-  }
-
-  
-
 .container {
   display: flex;
   flex-direction: row;
@@ -186,27 +180,27 @@ ul li .item {
 .box1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
   
 }
 .box2 { 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  
 
   
 }
 .box3 {
   display: flex;
-  justify-content: space-between;
+  
 }
 .box4 {
   display: flex;
-  justify-content: space-between;
+  
 }
 .box5 {
   display: flex;
-  justify-content: space-between;
+  
 }
 
 
