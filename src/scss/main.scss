@@ -28,7 +28,7 @@ header {
   height: 50px;
   background: #000;
   color: #fff;
-  padding: 0 .5rem 0 1rem;
+  padding: 0.5rem 0 1rem;
 }
 
 header .logo{
@@ -55,7 +55,7 @@ nav ul li a,
 nav ul li a:link,
 nav ul li a:visited{
   display: inline-block;
-  padding: 0 .5rem;
+  padding: 0.5rem;
   color: #fff;
   line-height: 50px;
   text-decoration: none;
@@ -130,7 +130,6 @@ h2 {
   align-content: center;
   text-align: center;
   margin-left: 250px;
-  
 }  
 
 
@@ -167,13 +166,7 @@ h6{
 .container {
   display: flex;
   flex-direction: row;
-   
 }
-
-ul li .item {
-  list-style: none;
-}
-
 
 /*Certifications*/
 
@@ -186,21 +179,19 @@ ul li .item {
 .box2 { 
   display: flex;
   flex-wrap: wrap;
-  
-
-  
 }
+
 .box3 {
   display: flex;
   
 }
+
 .box4 {
   display: flex;
   
 }
 .box5 {
   display: flex;
-  
 }
 
 
