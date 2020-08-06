@@ -156,10 +156,9 @@ h6{
   /*Competencies*/
 
 .container {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
-}
+  display: flex;
+}  
 
 .cc-left{
   float: left;
@@ -204,12 +203,23 @@ p .fend{
 .container-3 {
 display: flex;
 flex-direction: row;
-justify-content: center;
 
 }
 
-.item {
-justify-content: left;
+.cc-left{
+  float: left;
+  text-align: left;
+  width: 33%;
+  margin-left: 17%;
+  box-sizing: border-box;
+}
+
+.cc-right{
+  float: right;
+  text-align: right;
+  width: 33%;
+  margin-right: 17%;
+  box-sizing: border-box;
 }
 
 /*Education*/
@@ -230,13 +240,13 @@ justify-content: left;
 
 /*Contact Form*/
 
-.containerbox {
+.container1 {
 box-sizing: border-box;
 background-color: radial-gradient(circle,lightgrey,white,lightblue);;
-max-width: 400px;
+max-width: 200px;
 margin: 1rem auto 0;
 justify-content: center;
-border-radius: 6px;
+border-radius: 10px;
 padding: 2rem 1.5rem;
 
 }
