@@ -1,171 +1,193 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-* {
-  font-family: 'Open Sans', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Top of page for all 4 pages*/
+   .avatar {
+        border-radius: 50%; 
+        float: left; 
+        margin-right: 2.5em;
+      }
+               
+      header {
+        height: 50px;
+        background: #000;
+        color: #fff;
+        padding: 0 .5rem 0 1rem;
+      }
+      
+      header .logo{
+        line-height: 50px;
+        font-weight: bold;
+      }
+      
+      nav {
+        float: right;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      nav ul li{
+        display: inline;
+      }
+      
+      nav ul li a,
+      nav ul li a:link,
+      nav ul li a:visited{
+        display: inline-block;
+        padding: 0 .5rem;
+        color: #fff;
+        line-height: 50px;
+        text-decoration: none;
+      }
+      
+      nav ul li a:hover{
+        background: #444;
+      }
+      
+      main {
+          /* Use a margin to center the page */
+          margin: 0 auto;
+        
+          /* Set the width of the content */
+          width: 960px;
+        
+          /* For smaller screens to not exceed the max screen width */
+          max-width: 90%;
+        }
 
-.avatar {
-  border-radius: 50%;
-  float: left;
-  margin-right: 2.5em; }
+        #toggleMenu {
+          display: none;
+        }
+      /*Responsive for all 4 pages*/
+        @media only screen and (max-width: 960px)  {
+      
+          header {
+            position: relative;
+          }
+        
+          #toggleMenu {
+            display: block;
+            float: right;
+            line-height: 50px;
+          }
+        
+          header {
+            position: relative;
+          }
+        
+          nav {
+            position: absolute;
+            display: none;
+            background: #000;
+            top: 50px;
+            left: 0;
+            right: 0;
+          }
+        
+          nav ul li a,
+          nav ul li a:link,
+          nav ul li a:visited{
+            display: block;
+            border-bottom: 1px solid #777;
+          }
+        } 
 
 body {
-  padding: 0;
-  margin: 0; }
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
-/*Nav Bar*/
-header {
-  height: 50px;
-  background: #000;
-  color: #fff;
-  padding: 0.5rem 0 1rem; }
-
-header .logo {
-  line-height: 50px;
-  font-weight: bold;
-  padding-left: 20px; }
-
-nav {
-  float: right; }
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-nav ul li {
-  display: inline; }
-
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited {
-  display: inline-block;
-  padding: 0.5rem;
-  color: #fff;
-  line-height: 50px;
-  text-decoration: none; }
-
-nav ul li a:hover {
-  background: #444; }
-
-/* Responsive Page Code*/
-main {
-  /* Use a margin to center the page */
-  margin: 0 auto;
-  /* Set the width of the content */
-  width: 960px;
-  /* For smaller screens to not exceed the max screen width */
-  max-width: 90%; }
-
-#toggleMenu {
-  display: none; }
-
-@media only screen and (max-width: 960px) {
-  header {
-    position: relative; }
-
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px; }
-
-  nav {
-    position: absolute;
-    display: none;
-    background: #000;
-    top: 50px;
-    left: 0;
-    right: 0; }
-
-  nav ul li a,
-  nav ul li a:link,
-  nav ul li a:visited {
-    display: block;
-    border-bottom: 1px solid #777; } }
-/* Resume HTML Styling - Top of Page*/
-body {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0; }
-
-h1 {
-  text-align: center;
-  text-decoration: underline; }
+h1{
+    text-align: center;
+    text-decoration: underline;
+  
+}
 
 h2 {
-  align-content: center;
   text-align: center;
-  justify-content: center; }
+  align-items: center;
+}
 
-h3 {
-  text-align: center; }
-
-h4 {
-  text-align: center;
-  padding: 0px; }
-
-h6 {
-  text-align: center;
-  padding-bottom: 0%; }
+h6{
+    text-align: center;
+   
+}
 
 .title {
-  text-align: center; }
+text-align: center;
+
+}
 
 p .talent {
-  text-align: justify; }
+    text-align: justify; 
+}
 
-.links {
-  text-align: center; }
+.links{
+    text-align: center;
+}
+.competencies{
+    text-align: center;
+}
 
-/*Competencies*/
-.container {
-  display: flex;
-  flex-direction: row;
-  margin-left: 200px; }
+.skills{
+    text-align: left;
+    margin: auto;
+    width: 700px;
+}
 
-/*Certifications*/
-.box1 {
-  display: flex;
-  flex-wrap: wrap; }
+.certifications{
+    text-align: center;
+}
 
-.box2 {
-  display: flex;
-  flex-wrap: wrap; }
+.certs td{
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+    
+}
 
-.box3 {
-  display: flex; }
+.subedu {
+    text-align: center;
+    padding-bottom: 0px;
+}
 
-.box4 {
-  display: flex; }
+table .edu{
+    display: flex;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 10px;
+    width: 100%;
+    vertical-align: top;
+   
+}
 
-.box5 {
-  display: flex; }
+.experience{
+    text-align: left;
+    
+}
 
-/*Professional Experience*/
-p .fend {
-  justify-content: space-evenly; }
+.projects{
+    text-align: left;
+    margin: auto;
+    width: 900px;
+}
 
-/*Key Contributions*/
-.contributions {
-  text-align: center; }
+.pro{
+    text-align: center;
+}
 
-.container-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
+.place{
+    width: 800em;
+    text-align: left;
+}
 
-.item {
-  justify-content: left; }
+td.date{
+width: 100em; 
+text-align: right;
 
-/*Education*/
-.boxe1 {
-  display: flex;
-  justify-content: space-between; }
+}
 
-.boxe2 {
-  display: flex;
-  justify-content: space-between; }
-
-.boxe3 {
-  display: flex;
-  justify-content: space-between; }
-
-/*# sourceMappingURL=main.css.map */
