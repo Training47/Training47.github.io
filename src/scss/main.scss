@@ -1,267 +1,207 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-* {
-  font-family: 'Open Sans', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Top of page for all 4 pages*/
+   .avatar {
+        border-radius: 50%; 
+        float: left; 
+        margin-right: 2.5em;
+      }
+               
+      header {
+        height: 50px;
+        background: #000;
+        color: #fff;
+        padding: 0 .5rem 0 1rem;
+      }
+      
+      header .logo{
+        line-height: 50px;
+        font-weight: bold;
+      }
+      
+      nav {
+        float: right;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      nav ul li{
+        display: inline;
+      }
+      
+      nav ul li a,
+      nav ul li a:link,
+      nav ul li a:visited{
+        display: inline-block;
+        padding: 0 .5rem;
+        color: #fff;
+        line-height: 50px;
+        text-decoration: none;
+      }
+      
+      nav ul li a:hover{
+        background: #444;
+      }
+      
+      main {
+          /* Use a margin to center the page */
+          margin: 0 auto;
+        
+          /* Set the width of the content */
+          width: 960px;
+        
+          /* For smaller screens to not exceed the max screen width */
+          max-width: 90%;
+        }
 
-.avatar {
-  border-radius: 50%;
-  float: left;
-  margin-right: 2.5em; }
+        #toggleMenu {
+          display: none;
+        }
+      /*Responsive for all 4 pages*/
+        @media only screen and (max-width: 960px)  {
+      
+          header {
+            position: relative;
+          }
+        
+          #toggleMenu {
+            display: block;
+            float: right;
+            line-height: 50px;
+          }
+        
+          header {
+            position: relative;
+          }
+        
+          nav {
+            position: absolute;
+            display: none;
+            background: #000;
+            top: 50px;
+            left: 0;
+            right: 0;
+          }
+        
+          nav ul li a,
+          nav ul li a:link,
+          nav ul li a:visited{
+            display: block;
+            border-bottom: 1px solid #777;
+          }
+        } 
 
 body {
-  padding: 0;
-  margin: 0; }
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
-/*Nav Bar*/
-header {
-  height: 50px;
-  background: #000;
-  color: #fff;
-  padding: 0.5rem 0 1rem; }
-
-header .logo {
-  line-height: 50px;
-  font-weight: bold;
-  padding-left: 20px; }
-
-nav {
-  float: right; }
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-nav ul li {
-  display: inline; }
-
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited {
-  display: inline-block;
-  padding: 0.5rem;
-  color: #fff;
-  line-height: 50px;
-  text-decoration: none; }
-
-nav ul li a:hover {
-  background: #444; }
-
-/* Responsive Page Code*/
-main {
-  /* Use a margin to center the page */
-  margin: 0 auto;
-  /* Set the width of the content */
-  width: 960px;
-  /* For smaller screens to not exceed the max screen width */
-  max-width: 90%; }
-
-#toggleMenu {
-  display: none; }
-
-@media only screen and (max-width: 960px) {
-  header {
-    position: relative; }
-
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px; }
-
-  nav {
-    position: absolute;
-    display: none;
-    background: #000;
-    top: 50px;
-    left: 0;
-    right: 0; }
-
-  nav ul li a,
-  nav ul li a:link,
-  nav ul li a:visited {
-    display: block;
-    border-bottom: 1px solid #777; } }
-/* Resume HTML Styling - Top of Page*/
-body {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0; }
-
-h1 {
-  text-align: center;
-  text-decoration: underline; }
+h1{
+    text-align: center;
+    text-decoration: underline;
+  
+}
 
 h2 {
-  align-content: center;
   text-align: center;
-  justify-content: center; }
+  align-items: center;
+}
 
-h3 {
-  text-align: center; }
-
-h4 {
-  text-align: center;
-  padding: 0px; }
-
-h6 {
-  text-align: center;
-  padding-bottom: 0%; }
+h6{
+    text-align: center;
+   
+}
 
 .title {
-  text-align: center; }
+text-align: center;
+
+}
 
 p .talent {
-  text-align: justify; }
-
-.links {
-  text-align: center; }
-
-
-/*Competencies*/
-
- .container {
-  flex-direction: row;
-  display: flex;
-}  
-
-.cc-left{
-  float: left;
-  text-align: left;
-  width: 33%;
-  margin-left: 17%;
-  box-sizing: border-box;
+    text-align: justify; 
 }
 
-.cc-right{
-  float: right;
-  text-align: right;
-  width: 33%;
-  margin-right: 17%;
-  box-sizing: border-box;
+.links{
+    text-align: center;
+}
+.competencies{
+    text-align: center;
 }
 
-
-/*Certifications*/
-
-.row {
-  padding-left: 30px;
+.skills{
+    text-align: left;
+    margin: auto;
+    width: 700px;
 }
 
-.info {
-  padding-left: 30px;
+.certifications{
+    text-align: center;
 }
 
-
-/*Professional Experience*/
-
-p .fend{
-  justify-content: space-evenly;
+.certs td{
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+    
 }
 
-/*Key Contributions*/
+.subedu {
+    text-align: center;
+    padding-bottom: 0px;
+}
 
-.contributions {
-  text-align: center;
+table .edu{
+    display: flex;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 10px;
+    width: 100%;
+    vertical-align: top;
+   
+}
+
+.experience{
+    text-align: left;
+    
+}
+
+.projects{
+    text-align: left;
+    margin: auto;
+    width: 900px;
+}
+
+.pro{
+    text-align: center;
+}
+
+.place{
+    width: 800em;
+    text-align: left;
+}
+
+td.date{
+width: 100em; 
+text-align: right;
+
 }
 
 .container3 {
-flex-direction: row;
-display: flex;
-
+  box-sizing:border-box;
 }
 
-.cc-left{
+.left-half{
   float: left;
-  text-align: left;
-  width: 33%;
-  margin-left: 17%;
-  box-sizing: border-box;
+  width: 50%;
 }
 
-.cc-right{
+.right-half {
   float: right;
-  text-align: right;
-  width: 33%;
-  margin-right: 17%;
-  box-sizing: border-box;
+  width: 50%;
 }
 
-/*Education*/
-.boxe1{
-  display: flex;
-  justify-content: space-between;
-}
-
-.boxe2{
-  display: flex;
-  justify-content: space-between;
-}
-
-.boxe3{
-  display: flex;
-  justify-content: space-between;
-}
-
-/*Contact Form*/
-
-.containerbox {
-background-color: radial-gradient(circle,lightgrey,white,lightblue);;
-max-width: 200px;
-margin: 1rem auto 0;
-justify-content: center;
-border-radius: 10px;
-padding: 2rem 1.5rem;
-
-}
-
-
-/*Contact html*/
-#name {
-  margin-left: 300px;
-  display: flex;
-  margin-bottom: 40px;
-  font-size: 20px;
-  width: 400px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#email {
-  margin-left: 300px;
-  display: flex;
-  margin-bottom: 40px;
-  font-size: 20px;
-  width: 400px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#message {
-  margin-left: 300px;
-  display: flex;
-  margin-bottom: 40px;
-  font-size: 20px;
-  width: 400px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-label {
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 300px;
-}
-
-input[type=submit] {
-  margin-left: 300px;
-  font-size: 25px;
-}
-
-.intro {
-  font-size: 18px;
-  justify-content: space-evenly;
-  padding: 5px;
-}
-
-
-
-/*# sourceMappingURL=main.css.map */
