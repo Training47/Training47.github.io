@@ -116,8 +116,8 @@ nav ul li a:hover{
 h1{
     text-align: center;
     text-decoration: underline;
-  
 }
+
 
 h2 {
   align-content: center;
@@ -142,16 +142,15 @@ h6{
    }
 
 .title{
-  text-align: center;
-  
+    text-align: center;
   }
   
   p .talent{
       text-align: justify; 
   }
   
-  .links{
-      text-align: center;
+  .links {
+      justify-content: center;
   }
 
   /*Competencies*/
@@ -159,35 +158,27 @@ h6{
 .container {
   display: flex;
   flex-direction: row;
-  margin-left: 200px;
+  justify-content: center;
 }
+
+.competencies {
+  text-align: center;
+}
+
+.item {
+  justify-content: left;
+  }
+
 
 /*Certifications*/
 
-.box1 {
-  display: flex;
-  flex-wrap: wrap;
-  
-  
-}
-.box2 { 
-  display: flex;
-  flex-wrap: wrap;
+.row {
+  padding-left: 30px;
 }
 
-.box3 {
-  display: flex;
-  
+.info {
+  padding-left: 30px;
 }
-
-.box4 {
-  display: flex;
-  
-}
-.box5 {
-  display: flex;
-}
-
 
 
 /*Professional Experience*/
@@ -228,6 +219,66 @@ justify-content: left;
   display: flex;
   justify-content: space-between;
 }
+
+/*Contact Form*/
+
+.containerbox {
+box-sizing: border-box;
+background-color: lightblue;
+height: 100vh;
+width: 60vw;
+justify-content: center;
+
+}
+
+
+/*Contact html*/
+#name {
+  margin-left: 300px;
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#email {
+  margin-left: 300px;
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#message {
+  margin-left: 300px;
+  display: flex;
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
+input[type=submit] {
+  margin-left: 300px;
+  font-size: 25px;
+}
+
+.intro {
+  font-size: 25px;
+}
+
+
 
 
 

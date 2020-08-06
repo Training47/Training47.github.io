@@ -13,13 +13,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body>
   <header>
+     
     <span class="logo">Lisa Peña</span>
+    
+
   <a id="toggleMenu">Menu</a>
     <nav>
         <ul>
@@ -29,23 +32,27 @@
         </ul>
       </nav>
 </header>
-<main>
-  <h3>For Full Stack Web Applications Development and Web Design.  <br>Please
-    contact Lisa Peña via the form listed below:</br>
-  </h3>
 
-  <p>I am currently a new MicroTrain student in the Full Stack Developer program and working 
+
+<main class="containerbox">
+  <h2>For Full Stack Web Applications Development and Web Design Requests<br>Please
+    contact Lisa Peña via the form listed below:</br>
+  </h2>
+
+  <p class="intro">I am currently a new MicroTrain student in the Full Stack Developer program and working 
     diligently to succeed. Certified Scrum Master, CSM</p>
 
-      <form action="https://formspree.io/lisapena13@gmail.com" method="POST">
-         <div>
+    <div class="container1"
+      <form class="contact form" action="https://formspree.io/lisapena13@gmail.com" method="POST">
+         
+        <div>
         <label for="name">Name</label>
-        <input id="name" type="text" name="name">
+        <input id="name" type="text" name="name" placeholder"Name">
       </div>
       
       <div>
         <label for="email">Email</label>
-        <input id="email" type="text" name="_replyto">  
+        <input id="email" type="text" name="_replyto" placeholder"Email">  
       </div>
       
       <div>
@@ -56,10 +63,10 @@
       <div>
         <input type="hidden" name="_subject" value="New submission!">
       </div>
-      <div>
+      
         <input type="submit" value="Send">
-      </div>
-
+      
+    </div>
 <input type="hidden" name="_next" value="//Training47.github.io/thanks.html">
 <input type="text" name="_gotcha" style="display:none">
 
