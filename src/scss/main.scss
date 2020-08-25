@@ -19,7 +19,11 @@
       }
       
       nav {
-        float: right;
+        float: left;
+      }
+
+      .navbar-nav {
+        float: left;
       }
       
       nav ul {
@@ -109,6 +113,10 @@ h1{
 h2 {
   text-align: center;
   align-items: center;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 h6{

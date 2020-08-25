@@ -3,7 +3,7 @@
 * {
     font-family: 'Open Sans', sans-serif
 }
-
+/*Top of Page*/
 .avatar {
     border-radius: 50%;
     float        : left;
@@ -12,7 +12,8 @@
 
 body {
     padding: 0;
-    margin : 0
+    margin-left : 10%;
+
 }
 
 header {
@@ -117,7 +118,8 @@ h3 {
 
 h4 {
     text-align: center;
-    padding   : 0
+    font-weight: bold;
+    padding: 0;
 }
 
 h6 {
@@ -125,8 +127,14 @@ h6 {
     padding-bottom: 0
 }
 
+
+.mediacontainer{
+    justify-content: center;
+}
+
 .title {
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
 }
 
 p .talent {
@@ -137,52 +145,46 @@ p .talent {
     justify-content: center
 }
 
-.container {
+/*Competencies*/
+.container1 {
     display       : flex;
     flex-direction: row;
-    margin-left   : 200px
+    margin-left   : 30%;
+    
 }
 
-.row {
-    padding-left: 30px
+/*Certifications*/
+.container2 {
+    margin-left: 20%;
+    padding: 5px;
 }
 
 .info {
-    padding-left: 30px
+    padding-left: 15px;
 }
 
-p .fend {
-    justify-content: space-evenly
+/*Contributions*/
+.container4 {
+    display       : flex;
+    flex-direction: row;
+    margin-left   : 30%;
 }
 
-.contributions {
-    text-align: center
+/*Education*/
+
+.edu {
+position: relative;
+padding-right: 150px;
 }
 
-.container-3 {
-    display        : flex;
-    flex-direction : row;
-    justify-content: center
-}
 
-.item {
-    justify-content: left
-}
+   
+   
 
-.boxe1 {
-    display        : flex;
-    justify-content: space-between
-}
 
-.boxe2 {
-    display        : flex;
-    justify-content: space-between
-}
 
-.boxe3 {
-    display        : flex;
-    justify-content: space-between
-}
+
+/*Contact Page*/
 
 .containerbox {
     box-sizing      : border-box;

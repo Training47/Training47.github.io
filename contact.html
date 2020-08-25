@@ -1,92 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <title>Contact</title>
-    <meta name = "Contact Form" content = "HTML">
-    <meta name = "description" content = "Peña contact form">
-    <meta name = "keywords" content = "full stack, web developer, fullstack web developer"/>
-    <meta name = "author" content = "Lisa Peña">
-    <meta name = "revised" content = "Added meta tags, 5/26/20.">
-    <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-</head>
-
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Lisa Peña</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
+      <title> Lisa Peña Resume</title>
+      <meta name = "Peña resume" content = "resume tech skills">
+      <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+      <title>Lisa Peña</title>
+      <meta name = " Peña resume" content = "resume tech skills">
+      <meta name = "keywords" content = "full stack, web developer, fullstack web developer"/>
+      <meta name = "description" content = "Pena professional resume">
+      <meta name = "author" content = "Lisa Peña">
+      <meta name = "revised" content = "Added meta tags,5/26/20.">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="author" href="humans.txt"/>
+    </head>
+    
+    <body>
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Lisa Peña</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- <a id="toggleMenu">Menu</a> -->
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="resume.html">Resume</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </div>
+  </div>
+</nav>
 <body>
-  <header>
-     
-    <span class="logo">Lisa Peña</span>
-    
+  <form>
 
-  <a id="toggleMenu">Menu</a>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-</header>
-
-
-<main class="containerbox">
-  <h2>For Full Stack Web Applications Development and Web Design Requests<br>Please
-    contact Lisa Peña via the form listed below:</br>
-  </h2>
-
-  <p class="intro">I am currently a Front End Developer in a training Full Stack Developer program and working 
-    diligently to succeed. I have recently achieved a Certified Scrum Master, CSM designation to add to my accomplishments.</p>
-
-       <form class="contactform" action="https://formspree.io/lisapena13@gmail.com" method="POST">
-         
-        <div>
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder"Name">
+      <main class="containerbox">
+          <h2>For Full Stack Web Applications Development and Web Design Requests<br>Please
+            contact Lisa Peña via the form listed below:</br>
+          </h2>
+        
+          <p class="intro">I am currently a Front End Developer in a training Full Stack Developer program and working 
+            diligently to succeed. I have recently achieved a Certified Scrum Master, CSM designation to add to my accomplishments.</p>
+        
+               <form class="contactform" action="https://formspree.io/lisapena13@gmail.com" method="POST">
+                 
+        <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" 
+        placeholder="Name">
       </div>
-      
+
+      <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="text" class="form-control" id="Email" 
+        placeholder="Email">
+      </div>
+
+      <div class="form-group">
+          <label for="Message">Message</label>
+          <textarea id="message" class="form-control" placeholder="Message"></textarea>
+      </div>
+
       <div>
-        <label for="email">Email</label>
-        <input id="email" type="text" name="_replyto" placeholder"Email">  
-      </div>
-      
-      <div>
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-      </div>
-      
-      <div>
-        <input type="hidden" name="_subject" value="New submission!">
-      </div>
-      
-        <input type="submit" value="Send">
-      
-    
-<input type="hidden" name="_next" value="//Training47.github.io/thanks.html">
-<input type="text" name="_gotcha" style="display:none">
+          <input type="hidden" name="_subject" value="New submission!">
+        </div>
+        
+          <input type="submit" value="Send">
+        
+  <input type="hidden" name="_next" value="//Training47.github.io/thanks.html">
+  <input type="text" name="_gotcha" style="display:none">
 
-</main>
+    </form>
 
-</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 <script>
-
-  var toggleMenu = document.getElementById('toggleMenu');
-  var nav = document.querySelector('nav');
-  toggleMenu.addEventListener(
-    'click',
-    function(){
-      if(nav.style.display=='block'){
-        nav.style.display='none';
-      }else{
-        nav.style.display='block';
-      }
-    }
-  );
+  // var toggleMenu = document.getElementById('toggleMenu');
+// var nav = document.querySelector('nav');
+// toggleMenu.addEventListener(
+//   'click',
+//   function(){
+//     if(nav.style.display=='block'){
+//       nav.style.display='none';
+//     }else{
+//       nav.style.display='block';
+//     }
+//   }
+// );
 </script>
-
 </body>
 </html>
