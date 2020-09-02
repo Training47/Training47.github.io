@@ -5,23 +5,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Lisa Peña</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
-      <title> Lisa Peña Resume</title>
-      <meta name = "Peña resume" content = "resume tech skills">
-      <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
-      <title>Lisa Peña</title>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
       <meta name = " Peña resume" content = "resume tech skills">
       <meta name = "keywords" content = "full stack, web developer, fullstack web developer"/>
       <meta name = "description" content = "Pena professional resume">
       <meta name = "author" content = "Lisa Peña">
-      <meta name = "revised" content = "Added meta tags,5/26/20.">
       <link rel="manifest" href="/site.webmanifest">
       <link rel="author" href="humans.txt"/>
     </head>
     
     <body>
 <!-- Image and text -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg  navbar dark bg-dark">
   <a class="navbar-brand" href="#">Lisa Peña</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
   aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,22 +28,21 @@
       <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
       <a class="nav-link" href="resume.html">Resume</a>
       <a class="nav-link" href="contact.html">Contact</a>
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      <a class="nav-link" href="thankyou.html">Thank You</a>
     </div>
   </div>
 </nav>
-<body>
-  <form>
 
-      <main class="containerbox">
-          <h2>For Full Stack Web Applications Development and Web Design Requests<br>Please
-            contact Lisa Peña via the form listed below:</br>
+  <form>
+      <section class="container6">
+          <h2 class="appinfo">For Full Stack Web Applications Development and Web Design Requests<br>
+            Please contact Lisa Peña via the form listed below:</br>
           </h2>
         
           <p class="intro">I am currently a Front End Developer in a training Full Stack Developer program and working 
             diligently to succeed. I have recently achieved a Certified Scrum Master, CSM designation to add to my accomplishments.</p>
         
-               <form class="contactform" action="https://formspree.io/lisapena13@gmail.com" method="POST">
+        <form class="contactform" action="https://formspree.io/lisapena13@gmail.com" method="POST">
                  
         <div class="form-group">
         <label for="Name">Name</label>
@@ -75,26 +69,26 @@
         
   <input type="hidden" name="_next" value="//Training47.github.io/thanks.html">
   <input type="text" name="_gotcha" style="display:none">
-
+      </section>
     </form>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
 <script>
-  // var toggleMenu = document.getElementById('toggleMenu');
-// var nav = document.querySelector('nav');
-// toggleMenu.addEventListener(
-//   'click',
-//   function(){
-//     if(nav.style.display=='block'){
-//       nav.style.display='none';
-//     }else{
-//       nav.style.display='block';
-//     }
-//   }
-// );
-</script>
+  var toggleMenu = document.getElementById('toggleMenu');
+var nav = document.querySelector('nav');
+toggleMenu.addEventListener(
+  'click',
+  function(){
+    if(nav.style.display=='block'){
+      nav.style.display='none';
+    }else{
+      nav.style.display='block';
+    }
+  } 
+);
+</script> 
 </body>
 </html>

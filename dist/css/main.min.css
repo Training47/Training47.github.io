@@ -1,41 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-* {
-    font-family: 'Open Sans', sans-serif
-}
-/*Top of Page*/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 .avatar {
     border-radius: 50%;
-    float        : left;
-    margin-right : 2.5em
-}
-
-body {
-    padding: 0;
-    margin-left : 10%;
-
+    float: left;
+    margin-right: 2.5em
 }
 
 header {
-    height    : 50px;
+    height: 50px;
     background: #000;
-    color     : #fff;
-    padding   : .5rem 0 1rem
+    color: #fff;
+    padding: 0 .5rem 0 1rem
 }
 
 header .logo {
-    line-height : 50px;
-    font-weight : 700;
-    padding-left: 20px
+    line-height: 50px;
+    font-weight: 700
 }
 
 nav {
-    float: right
+    float: left
+}
+
+.navbar-nav {
+    float: left
 }
 
 nav ul {
-    margin    : 0;
-    padding   : 0;
+    margin: 0;
+    padding: 0;
     list-style: none
 }
 
@@ -43,13 +35,11 @@ nav ul li {
     display: inline
 }
 
-nav ul li a,
-nav ul li a:link,
-nav ul li a:visited {
-    display        : inline-block;
-    padding        : .5rem;
-    color          : #fff;
-    line-height    : 50px;
+nav ul li a, nav ul li a:link, nav ul li a:visited {
+    display: inline-block;
+    padding: 0 .5rem;
+    color: #fff;
+    line-height: 50px;
     text-decoration: none
 }
 
@@ -58,8 +48,8 @@ nav ul li a:hover {
 }
 
 main {
-    margin   : 0 auto;
-    width    : 960px;
+    margin: 0 auto;
+    width: 960px;
     max-width: 90%
 }
 
@@ -67,74 +57,58 @@ main {
     display: none
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:860px) {
     header {
         position: relative
     }
-
     #toggleMenu {
-        display    : block;
-        float      : right;
+        display: block;
+        float: right;
         line-height: 50px
     }
-
-    nav {
-        position  : absolute;
-        display   : none;
-        background: #000;
-        top       : 50px;
-        left      : 0;
-        right     : 0
+    header {
+        position: relative
     }
-
-    nav ul li a,
-    nav ul li a:link,
-    nav ul li a:visited {
-        display      : block;
+    nav {
+        position: absolute;
+        display: none;
+        background: #000;
+        top: 50px;
+        left: 0;
+        right: 0
+    }
+    nav ul li a, nav ul li a:link, nav ul li a:visited {
+        display: block;
         border-bottom: 1px solid #777
     }
 }
 
 body {
     font-family: Roboto, sans-serif;
-    padding    : 0;
-    margin     : 0
+    padding: 0;
+    margin: 0
 }
 
 h1 {
-    text-align     : center;
+    text-align: center;
     text-decoration: underline
 }
 
 h2 {
-    align-content  : center;
-    text-align     : center;
-    justify-content: center
-}
-
-h3 {
-    text-align: center
+    text-align: center;
+    align-items: center
 }
 
 h4 {
-    text-align: center;
-    font-weight: bold;
-    padding: 0;
+    font-weight: 700
 }
 
 h6 {
-    text-align    : center;
-    padding-bottom: 0
-}
-
-
-.mediacontainer{
-    justify-content: center;
+    text-align: center
 }
 
 .title {
-    text-align: center;
-    margin-top: 50px;
+    text-align: center
 }
 
 p .talent {
@@ -142,99 +116,67 @@ p .talent {
 }
 
 .links {
-    justify-content: center
+    text-align: center
 }
 
-/*Competencies*/
-.container1 {
-    display       : flex;
-    flex-direction: row;
-    margin-left   : 30%;
-    
+.competencies {
+    text-align: center
 }
 
-/*Certifications*/
-.container2 {
-    margin-left: 20%;
-    padding: 5px;
+.skills {
+    text-align: left;
+    margin: auto;
+    width: 700px
 }
 
-.info {
-    padding-left: 15px;
+.certifications {
+    text-align: center
 }
 
-/*Contributions*/
-.container4 {
-    display       : flex;
-    flex-direction: row;
-    margin-left   : 30%;
+.experience {
+    text-align: left
 }
 
-/*Education*/
-
-.edu {
-position: relative;
-padding-right: 150px;
+.projects {
+    text-align: left;
+    margin: auto;
+    width: 900px
 }
 
-
-   
-   
-
-
-
-
-/*Contact Page*/
-
-.containerbox {
-    box-sizing      : border-box;
-    background-color: #add8e6;
-    height          : 100vh;
-    width           : 70vw;
-    justify-content : center
+.pro {
+    text-align: center
 }
 
-#name {
-    margin-left  : 300px;
-    display      : flex;
-    margin-bottom: 40px;
-    font-size    : 20px;
-    width        : 400px;
-    padding      : 10px;
-    border-radius: 10px
+.place {
+    width: 800em;
+    text-align: left
 }
 
-#email {
-    margin-left  : 300px;
-    display      : flex;
-    margin-bottom: 40px;
-    font-size    : 20px;
-    width        : 400px;
-    padding      : 10px;
-    border-radius: 10px
+td.date {
+    width: 100em;
+    text-align: right
 }
 
-#message {
-    margin-left  : 300px;
-    display      : flex;
-    margin-bottom: 40px;
-    font-size    : 20px;
-    width        : 400px;
-    padding      : 10px;
-    border-radius: 10px
+.container3 {
+    box-sizing: border-box
 }
 
-label {
-    font-size  : 18px;
-    font-weight: 700;
-    margin-left: 300px
+.left-half {
+    float: left;
+    width: 50%
 }
 
-input[type=submit] {
-    margin-left: 300px;
-    font-size  : 25px
+.right-half {
+    float: right;
+    width: 50%
 }
 
 .intro {
-    font-size: 25px
+    font-size: 18px
+}
+
+
+
+h2 {
+    font-size: 20px
 }
