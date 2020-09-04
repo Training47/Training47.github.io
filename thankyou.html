@@ -4,55 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta name = "keywords" content = "full stack, web developer, fullstack web developer"/>
-    <meta name = "description" content = "Lisa Peña professional resume>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <meta name = "description" content = "Lisa Peña professional resume"/>
+    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-    <!-- <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">  -->
-    <link rel="manifest" href="/manifest.json">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
     <title>Thank You</title>
 </head>
 
-
+<header>
+<div class="container"></div>
 <!-- Image and text -->
-<nav class="navbar navbar-expand-lg navbar dark bg-dark text-white mt-5">
-  <a class="navbar-brand text-white" href="#">Lisa Peña</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Lisa Peña</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <!-- <a id="toggleMenu">Menu</a> -->
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav navbar dark bg-dark text-white">
-      <a class="nav-link active" href="index.html">Home<span class="sr-only"></span></a>
+    <div class="navbar-nav">
+      <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
       <a class="nav-link" href="resume.html">Resume</a>
       <a class="nav-link" href="contact.html">Contact</a>
-      </div>
+      <a class="nav-link" href="thankyou.html">Thank You</a>      
+    </div>
   </div>
 </nav>
+</div>
+</header>
 
 <body>
-  <main>
-  <h1 class="text-center">Thank you for contacting me for additional information on how to market
-    your business through web design.</h1>
-</main>
+  <div class="container">
+  <h1 class="text-center"><strong>Thank you for contacting me for additional information on how to market
+    your business through web design.</strong></h1>
+  </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
 
-<script>
-  var toggleMenu = document.getElementById('toggleMenu');
-  var nav = document.querySelector('nav');
-  toggleMenu.addEventListener(
-    'click',
-    function(){
-      if(nav.style.display=='block'){
-        nav.style.display='none';
-      }else{
-        nav.style.display='block';
-      }
-    }
-  );
-</script>
 </body>
 </html>
