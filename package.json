@@ -6,7 +6,7 @@
     "start": "gulp watch"
   },
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
